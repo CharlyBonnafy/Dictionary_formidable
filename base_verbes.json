@@ -1,0 +1,264 @@
+{
+  "groups": {
+    "first_group": [
+      "parler",
+      "aimer"
+    ],
+    "second_group": [
+      "finir",
+      "choisir"
+    ],
+    "third_group": [
+      "prendre",
+      "aller",
+      "être",
+      "avoir"
+    ]
+  },
+  "endings": {
+    "first_group": {
+      "present": [
+        "e",
+        "es",
+        "e",
+        "ons",
+        "ez",
+        "ent"
+      ],
+      "future": [
+        "erai",
+        "eras",
+        "era",
+        "erons",
+        "erez",
+        "eront"
+      ],
+      "imperfect": [
+        "ais",
+        "ais",
+        "ait",
+        "ions",
+        "iez",
+        "aient"
+      ],
+      "participe_passe": "é"
+    },
+    "second_group": {
+      "present": [
+        "is",
+        "is",
+        "it",
+        "issons",
+        "issez",
+        "issent"
+      ],
+      "future": [
+        "irai",
+        "iras",
+        "ira",
+        "irons",
+        "irez",
+        "iront"
+      ],
+      "imperfect": [
+        "issais",
+        "issais",
+        "issait",
+        "issions",
+        "issiez",
+        "issaient"
+      ],
+      "participe_passe": "i"
+    }
+  },
+  "auxiliaries": {
+    "avoir": {
+      "present": [
+        "ai",
+        "as",
+        "a",
+        "avons",
+        "avez",
+        "ont"
+      ],
+      "participe_passe": "eu"
+    },
+    "etre": {
+      "present": [
+        "suis",
+        "es",
+        "est",
+        "sommes",
+        "êtes",
+        "sont"
+      ],
+      "participe_passe": "été"
+    }
+  },
+  "verbs": {
+    "parler": {
+      "infinitive": "parler",
+      "core": "parl",
+      "group": "first_group",
+      "auxiliary": "avoir"
+    },
+    "aimer": {
+      "infinitive": "aimer",
+      "core": "aim",
+      "group": "first_group",
+      "auxiliary": "avoir"
+    },
+    "finir": {
+      "infinitive": "finir",
+      "core": "fin",
+      "group": "second_group",
+      "auxiliary": "avoir"
+    },
+    "choisir": {
+      "infinitive": "choisir",
+      "core": "chois",
+      "group": "second_group",
+      "auxiliary": "avoir"
+    },
+    "prendre": {
+      "infinitive": "prendre",
+      "auxiliary": "avoir",
+      "group": "third_group",
+      "conjugations": {
+        "present": [
+          "prends",
+          "prends",
+          "prend",
+          "prenons",
+          "prenez",
+          "prennent"
+        ],
+        "future": [
+          "prendrai",
+          "prendras",
+          "prendra",
+          "prendrons",
+          "prendrez",
+          "prendront"
+        ],
+        "imperfect": [
+          "prenais",
+          "prenais",
+          "prenait",
+          "prenions",
+          "preniez",
+          "prenaient"
+        ],
+        "participe_passe": "pris"
+      }
+    },
+    "aller": {
+      "infinitive": "aller",
+      "auxiliary": "être",
+      "group": "third_group",
+      "conjugations": {
+        "present": [
+          "vais",
+          "vas",
+          "va",
+          "allons",
+          "allez",
+          "vont"
+        ],
+        "future": [
+          "irai",
+          "iras",
+          "ira",
+          "irons",
+          "irez",
+          "iront"
+        ],
+        "imperfect": [
+          "allais",
+          "allais",
+          "allait",
+          "allions",
+          "alliez",
+          "allaient"
+        ],
+        "participe_passe": "allé"
+      }
+    },
+    "être": {
+      "infinitive": "être",
+      "auxiliary": "avoir",
+      "group": "third_group",
+      "conjugations": {
+        "present": [
+          "suis",
+          "es",
+          "est",
+          "sommes",
+          "êtes",
+          "sont"
+        ],
+        "future": [
+          "serai",
+          "seras",
+          "sera",
+          "serons",
+          "serez",
+          "seront"
+        ],
+        "imperfect": [
+          "étais",
+          "étais",
+          "était",
+          "étions",
+          "étiez",
+          "étaient"
+        ],
+        "participe_passe": "été"
+      }
+    },
+    "avoir": {
+      "infinitive": "avoir",
+      "auxiliary": "avoir",
+      "group": "third_group",
+      "conjugations": {
+        "present": [
+          "ai",
+          "as",
+          "a",
+          "avons",
+          "avez",
+          "ont"
+        ],
+        "future": [
+          "aurai",
+          "auras",
+          "aura",
+          "aurons",
+          "aurez",
+          "auront"
+        ],
+        "imperfect": [
+          "avais",
+          "avais",
+          "avait",
+          "avions",
+          "aviez",
+          "avaient"
+        ],
+        "participe_passe": "eu"
+      }
+    },
+    "tester": {
+      "infinitive": "tester",
+      "core": "test",
+      "group": "first_group",
+      "auxiliary": "avoir"
+    },
+    "arriver": {
+      "infinitive": "arriver",
+      "core": "arriv",
+      "group": "first_group",
+      "auxiliary": "être"
+    }
+  }
+}
